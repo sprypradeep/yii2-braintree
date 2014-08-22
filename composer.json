@@ -1,0 +1,22 @@
+{
+	"name": "bryglen/yii2-braintree",
+	"description": "yii 2 braintree integration",
+	"type": "yii2-extension",
+	"keywords": ["yii2"," extension"," braintree"," php"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Bryan Tan",
+			"email": "bryantan16@gmail.com"
+		}
+	],
+    "require": {
+        "yiisoft/yii2": "*",
+        "braintree/braintree_php" : "2.30.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"bryglen\\braintree\\": ""
+		}
+	}
+}
