@@ -54,10 +54,10 @@ class Braintree extends Component
      */
     public function call($command, $method, $values)
     {
-        $class = strtr("{class}_{command}",array(
-                '{class}' => $this->_prefix,
-                '{command}' => $command,
-            ));
+        $class = strtr("{class}_{command}", [
+            '{class}' => $this->_prefix,
+            '{command}' => $command,
+        ]);
 
         return call_user_func(array($class, $method), $values);
     }
