@@ -44,7 +44,7 @@ Once the extension is installed, you should configure it in the application conf
 ```php
 $braintree = Yii::$app->braintree;
 $response = $braintree->call('Customer', 'create', [
-    'firstName' => 'bryan',
+    'firstName' => 'pradeep',
     ....
 ]);
 
