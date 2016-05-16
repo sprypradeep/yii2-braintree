@@ -1,9 +1,9 @@
 <?php
 /**
- * @author Bryan Tan <bryantan16@gmail.com>
+ * @author Pradeep Sharma <pradeep@sprytechies.com>
  */
 
-namespace bryglen\braintree;
+namespace sprypradeep\braintree;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
