@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bryglen/yii2-braintree "*"
+php composer.phar require --prefer-dist sprypradeep/yii2-braintree "*"
 ```
 
 or add
 
 ```
-"bryglen/yii2-braintree": "*"
+"sprypradeep/yii2-braintree": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Once the extension is installed, you should configure it in the application conf
 ```php
 'components' => [
     'braintree' => [
-        'class' => 'bryglen\braintree\Braintree',
+        'class' => 'sprypradeep\braintree\Braintree',
         'environment' => 'sandbox',
         'merchantId' => 'your_merchant_id',
         'publicKey' => 'your_public_key',
